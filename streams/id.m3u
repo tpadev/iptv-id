@@ -8,7 +8,7 @@ https://tv.aliman.id/aliman/live.m3u8
 #EXTINF:-1 tvg-id="AlWafaTarim.id",Alwafa Tarim TV (Am Media) (720p)
 https://ammedia.siar.us/ammedia/live/playlist.m3u8
 #EXTINF:-1 tvg-id="ANTV.id",ANTV
-http://203.77.246.2:443/udp/239.1.1.104:5000
+https://cdn10jtedge.indihometv.com/atm/hlsv3/ANTV/ANTV-avc1_1200000=9-mp4a_96000=2.m3u8
 #EXTINF:-1 tvg-id="ArekTV.id",Arek TV (720p)
 https://ams.juraganstreaming.com:5443/LiveApp/streams/arektv.m3u8
 #EXTINF:-1 tvg-id="ATVLIChannel.id",ATVLI Channel (720p)
@@ -349,3 +349,10 @@ https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
 https://ams.juraganstreaming.com:5443/LiveApp/streams/wesaltv.m3u8
 #EXTINF:-1 tvg-id="ZeeBioskop.id",Zee Bioskop (360p) [Geo-blocked]
 http://vod.linknetott.swiftcontent.com/Content/HLS/Live/Channel(ch161)/index.m3u8
+
+#EXTINF:-1 tvg-id="tvOne.id",tvOne
+https://cdn09jtedge.indihometv.com/atm/hlsv3/tvone/tvone-avc1_1200000=4-mp4a_96000=5.m3u8
+#EXTINF:-1 tvg-id="MetroTV.id",Metro TV
+https://cdn10jtedge.indihometv.com/atm/hlsv3/METRO_TV/METRO_TV-avc1_1200000=9-mp4a_96000=2.m3u8
+#EXTINF:-1 tvg-id="KompasTV.id",Kompas TV
+https://cdn10jtedge.indihometv.com/atm/hlsv3/KOMPAS_TV/KOMPAS_TV-avc1_1200000=8-mp4a_96000=2.m3u8
