@@ -109,8 +109,12 @@ http://122.248.43.138:1935/ch23/myStream/playlist.m3u8
 https://jawapostv.siar.us/jawapostv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="JekTV.id",Jek TV (720p) [Not 24/7]
 http://61.8.64.138:1935/jektv/myStream/playlist.m3u8
+
+# add new stream link
 #EXTINF:-1 tvg-id="JogjaIstimewaTV.id",Jogja Istimewa TV (720p)
 http://103.255.15.222:1935/tv/jitv_720p/playlist.m3u8
+https://mam.jogjaprov.go.id:1937/tv/jitv_720p/playlist.m3u8
+
 #EXTINF:-1 tvg-id="JogjaTV.id",Jogja TV (720p) [Not 24/7]
 https://stream.jogjatv.co.id/jtvlive/stream/index.m3u8
 #EXTINF:-1 tvg-id="JTV.id",JTV (720p) [Not 24/7] [Geo-blocked]
@@ -121,7 +125,7 @@ https://5bf7b725107e5.streamlock.net/kstv/kstv/playlist.m3u8
 https://lingkartv.my.id/hls/lingkartv.m3u8
 #EXTINF:-1 tvg-id="MaduTV.id",Madu TV (576p)
 https://re1.siar.us/madutv/hd720/playlist.m3u8
-#EXTINF:-1 tvg-id="MagnaChannel.id",Magna Channel (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="MagnaChannel.id",Magna Channel
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Max2U.id",Max2U (720p)
 https://cdn-telkomsel-01.akamaized.net/Content/HLS/Live/channel(a255dd49-dc2a-464b-8623-6ef4556dff11)/index.m3u8
@@ -147,10 +151,16 @@ http://210.210.155.37/uq2663/h/h191/index.m3u8
 https://op-krgroup1-swiftservehd-1.dens.tv/h/h126/live.m3u8
 #EXTINF:-1 tvg-id="NaDooKorean.id",NaDoo Korean (1080p) [Geo-blocked]
 https://op-krgroup1-swiftservehd-1.dens.tv/h/h125/live.m3u8
-#EXTINF:-1 tvg-id="NusantaraTV.id",Nusantara TV (720p)
-https://nusantaratv.siar.us/nusantaratv/live/chunks.m3u8
+
+# add new stream link and change name
+#EXTINF:-1 tvg-id="NusantaraTV.id",ntv
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
+#https://cdn11jtedge.indihometv.com/atm/hlsv3/nusantaratv/nusantaratv.m3u8
+
+# need to remove duplicate id for nusantaraTV.id
 #EXTINF:-1 tvg-id="OnlineTVNusantara.id",Online TV Nusantara (720p) [Not 24/7]
-https://5bf7b725107e5.streamlock.net/onlinetvnusantara/onlinetvnusantara/playlist.m3u8
+#https://5bf7b725107e5.streamlock.net/onlinetvnusantara/onlinetvnusantara/playlist.m3u8
+
 #EXTINF:-1 tvg-id="PadangTV.id",Padang TV (720p) [Not 24/7]
 http://122.248.43.138:1935/ch16/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="PalembangTV.id",Pal TV (720p) [Not 24/7]
@@ -358,7 +368,7 @@ https://cdn09jtedge.indihometv.com/atm/hlsv3/seatoday/seatoday.m3u8
 #EXTINF:-1 tvg-id="TransTV.id",Trans TV
 https://video.detik.com/transtv/smil:transtv.smil/index.m3u
 #https://cdn11jtedge.indihometv.com/atm/hlsv3/transtv/transtv.m3u8
-#EXTINF:-1 tvg-id="Trans7.id",Trans 7
+#EXTINF:-1 tvg-id="Trans7.id",Trans7
 https://video.detik.com/trans7/smil:trans7.smil/index.m3u
 #https://cdn11jtedge.indihometv.com/atm/hlsv3/trans7/trans7.m3u8
 #EXTINF:-1 tvg-id="tvOne.id",tvOne
@@ -366,7 +376,8 @@ https://cdn09jtedge.indihometv.com/atm/hlsv3/tvone/tvone.m3u8
 #EXTINF:-1 tvg-id="ANTV.id",ANTV
 https://cdn11jtedge.indihometv.com/atm/hlsv3/ANTV/ANTV.m3u8
 #EXTINF:-1 tvg-id="MetroTV.id",Metro TV
-https://cdn10jtedge.indihometv.com/atm/hlsv3/METRO_TV/METRO_TV.m3u8
+https://edge.medcom.id/live-edge/smil:metro.smil/index.m3u8
+#https://cdn10jtedge.indihometv.com/atm/hlsv3/METRO_TV/METRO_TV.m3u8
 #EXTINF:-1 tvg-id="KompasTV.id",Kompas TV
 https://cdn10jtedge.indihometv.com/atm/hlsv3/KOMPAS_TV/KOMPAS_TV.m3u8
 #EXTINF:-1 tvg-id="CNBCIndonesia.id",CNBC Indonesia
@@ -393,8 +404,6 @@ https://cdn11jtedge.indihometv.com/atm/hlsv3/RRI_NET_HD/RRI_NET_HD.m3u8
 https://cdn11jtedge.indihometv.com/atm/hlsv3/balitv/balitv.m3u8
 #EXTINF:-1 tvg-id="JAKTV.id",JAKTV
 https://cdn11jtedge.indihometv.com/atm/hlsv3/JAK_TV/JAK_TV.m3u8
-#EXTINF:-1 tvg-id="NusantaraTV.id",NTV
-https://cdn11jtedge.indihometv.com/atm/hlsv3/nusantaratv/nusantaratv.m3u8
 #EXTINF:-1 tvg-id="Antara.id",Antara
 https://cdn11jtedge.indihometv.com/atm/hlsv3/antara/antara.m3u8
 #EXTINF:-1 tvg-id="PramborsTV.id",Prambors TV
@@ -406,4 +415,19 @@ https://cdn11jtedge.indihometv.com/atm/hlsv3/jawapos/jawapos.m3u8
 #EXTINF:-1 tvg-id="IndonesianaTV.id",Indonesiana TV
 https://cdn11jtedge.indihometv.com/atm/hlsv3/indonesiana/indonesiana.m3u8
 
-
+#EXTINF:-1 tvg-id="Elshinta.id",ElshintaTV
+https://ams.juraganstreaming.com:5443/LiveApp/streams/elshintatv.m3u8
+#EXTINF:-1 tvg-id="pktv.id",pktv
+https://ams.juraganstreaming.com:5443/LiveApp/streams/pktv.m3u8
+#EXTINF:-1 tvg-id="BantenTV.id",BantenTV
+https://5bf7b725107e5.streamlock.net/bantentv/bantentv/playlist.m3u8
+#EXTINF:-1 tvg-id="SaliraTV.id",SaliraTV
+https://5bf7b725107e5.streamlock.net/saliratv/saliratv/playlist.m3u8
+#EXTINF:-1 tvg-id="JurnalTV.id",Jurnal TV
+https://5bf7b725107e5.streamlock.net/jurnaltv/jurnaltv/playlist.m3u8
+#EXTINF:-1 tvg-id="TVDesa.id",TVDesa
+https://5bf7b725107e5.streamlock.net/mytvdesa/mytvdesa/playlist.m3u8
+#EXTINF:-1 tvg-id="MaduTV.id",MADUTV
+https://re1.siar.us/madutv/hd720/playlist.m3u8
+#EXTINF:-1 tvg-id="BanjarTV.id",Banjar TV
+https://banjartv.siar.us/banjartv/live/playlist.m3u8
